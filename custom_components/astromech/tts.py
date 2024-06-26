@@ -73,7 +73,7 @@ class TextToAstromech(tts.TextToSpeechEntity):
     @property
     def supported_languages(self) -> list[str]:
         """Return a list of supported languages."""
-        return ["en", "de", "pl", "es", "it", "fr", "pt", "se", "nl", "hi", "nl", "se", "hr"]  # TODO return all
+        return ["en", "de", "pl", "es", "it", "fr", "pt", "se", "nl", "hr"]  # TODO return all
 
     @property
     def default_language(self) -> str:
